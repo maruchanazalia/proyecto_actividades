@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(80, 155, 115);
+  }
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+}
+
+.actividades{
+position: absolute;
+top: 6%;
+left: 20%;
+width: 50%;
+height: 50%;
+background-color: #4da5e3;  
+}
+
+#tabla-tareas {
+    position: absolute;
+    width: 35%;
+    height: 40%;
+    background-color: aliceblue;
+    top: 50%;
+    left: 20%;
+    box-shadow: 0px 0.25rem 1rem rgba(0,0,0,0.25);
+
+}
+
+#listadas{
+    padding: 14px 0px;
+    margin: 2px 20px;
+    border-bottom: 1px solid #e9e9e9;
+    color: #555;
+}
+
+#output p{
+    color: #555;
+    padding: 14px 0;
+    margin: o 20px;
+}
+
+#actions{
+    padding: 14px 0;
+    margin: 0 20px;
+    border-bottom: 1px solid #4da4e380;
+    color: aqua;
+}
+
+input{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 0 ;
+    background: #8be5a3;
+    display: block;
+    width: 100%;
+    
+}
+
+button{
+    background: #4da5e3;
+    color: black;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 0 0 2px 2px;
+}
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Tareas</title>
+</head>
+<body>
+    <h1>comentarios de las tareas</h1>
+    <div class="actividades">
+            
+    </div>
+    <div id="tabla-tareas">
+        <h1>comentarios</h1>
+        <div id="listadas">
+            <div id="output"></div>
+            <div id="actions"></div>
+        </div>
+        <input type="text" id="username" placeholder="usuario">
+        <input type="text" id="message" placeholder="nueva tarea">
+        <button id="send" > enviar</button>
+    </div>
+
+    <script src="/socket.io/socket.io.js" charset="utf-8"></script>
+    <script src="tareas.js" charset="utf-8"></script>
+</body>
+</html>
